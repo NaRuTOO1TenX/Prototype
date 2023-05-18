@@ -30,6 +30,159 @@
 
 
 /* Featured games start */
+/* body{
+  background: #b13333;
+}
+
+.featured-games .container{
+  margin-top: 50px;
+  background: rgb(19, 24, 23);
+} */
+.featured-games .container div{
+  display: inline-flex;
+}
+.featured-games .container span{
+  font-size: 22px;
+  color: aliceblue;
+}
+.featured-games .container img{
+  width: 466px;
+  height: 305px;
+  /* display: block; */
+}
+.featured-games .container .checked {
+  margin-top: 45px;
+  color: orange;
+  /* padding-bottom: 10px; */
+}
+.featured-games .container .featured-games-text{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 37px;
+  line-height: 45px;
+
+  color: rgba(237, 237, 237, 0.9);
+}
+.featured-games .container .games-1{
+  width: 499px;
+  height: 574px;  
+  display: inline;
+  gap: 39px;
+  padding-top: 75px;
+}
+.featured-games .container .games-1 img{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0B0D0D 100%);
+border-radius: 25px;
+}
+.featured-games .container .games-1 .game-info-1{
+  width: 429.87px;
+  height: 155px;
+  display: inline;
+}
+.featured-games .container .games-1 .game-info-1 .text-1{
+  font-family: 'Montserrat';
+  /* font-style: normal; */
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: rgba(255, 255, 255, 0.8);
+  width: 375px;
+  height: 37px;
+  padding-top: 35px;
+  display: flex;
+
+}
+.featured-games .container .games-1 .game-info-1 .text-info-1{
+  width: 429.71px;
+  height: 48px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 65px;
+  color: rgba(176, 176, 176, 0.9);
+}
+
+.featured-games .container .games-2{
+  width: 499px;
+  height: 574px; 
+  display: inline; 
+  gap: 39px;
+  padding-top: 75px;
+}
+.featured-games .container .games-2 img{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0B0D0D 100%);
+border-radius: 25px;
+}
+.featured-games .container .games-2 .game-info-2{
+  width: 429.87px;
+  height: 155px;
+  display: inline;
+}
+.featured-games .container .games-2 .game-info-2 .text-2{
+  font-family: 'Montserrat';
+  /* font-style: normal; */
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: rgba(255, 255, 255, 0.8);
+  width: 375px;
+  height: 37px;
+  padding-top: 35px;
+
+}
+.featured-games .container .games-2 .game-info-2 .text-info-2{
+  width: 429.71px;
+  height: 48px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 65px;
+  color: rgba(176, 176, 176, 0.9);
+}
+.featured-games .container .games-3{
+  width: 499px;
+  height: 574px;  
+  display: inline;
+  gap: 39px;
+  padding-top: 75px;
+}
+.featured-games .container .games-3 img{
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0B0D0D 100%);
+border-radius: 25px;
+}
+.featured-games .container .games-3 .game-info-3{
+  width: 429.87px;
+  height: 155px;
+  display: inline;
+}
+.featured-games .container .games-3 .game-info-3 .text-3{
+  font-family: 'Montserrat';
+  /* font-style: normal; */
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: rgba(255, 255, 255, 0.8);
+  width: 375px;
+  height: 37px;
+  padding-top: 35px;
+
+}
+.featured-games .container .games-3 .game-info-3 .text-info-3{
+  width: 429.71px;
+  height: 48px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 65px;
+  color: rgba(176, 176, 176, 0.9);
+}
 
 /* Featured games end */
 
