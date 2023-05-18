@@ -652,7 +652,80 @@ cursor: pointer;
 
 
 /* Top free games start */
-
+  .top-free-games {
+    padding: 100px 0 200px;
+  }
+  .free_header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  .free_header_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 45px;
+    color: rgba(235, 235, 235, 0.9);
+  }
+  .free_header img {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .free_mainbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .free_smallbox {
+    width: 30%;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+  }
+  .free_smallbox_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+  }
+  .free_smallbox_text {
+    width: 273px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A4A4A4;
+    margin: 10px 0;
+  }
+  .free_link_for_font {
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+  }
+  .free_starbox i {
+    color: #937200;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .free_starbox {
+    display: flex;
+    gap: 7px;
+    flex-wrap: wrap;
+  }
+  .free_smallbox:hover .free_smallbox_left img {
+    transform: scale(1.2);
+  }
+  .free_smallbox .free_smallbox_left img {
+    display: inline-block;
+    transition: 0.4s all linear;
+  }
 /* Top free games end */
 
 
