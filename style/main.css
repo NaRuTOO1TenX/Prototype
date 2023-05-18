@@ -19,7 +19,7 @@
 
 .wrapper {
     background-image: url(../images/bg-full-page.jpg);
-    width: 1728px;
+    max-width: 1728px;
     margin: 0 auto;
     height: 7244px;
     background-position: center center;
