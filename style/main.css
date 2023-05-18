@@ -17,6 +17,15 @@
   margin: 0 auto;
 }
 
+.wrapper {
+    background-image: url(../images/bg-full-page.jpg);
+    max-width: 1728px;
+    margin: 0 auto;
+    height: 7244px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /* Header start */
 
@@ -37,16 +46,12 @@
 
 /* Top events start */
 
-.top-events {
-  background-color: #93CBFF;
-}
 
 
 
 .top-events-box {
   display: flex;
   height: 1189px;
-  background: green;
 }
 
 .top-events-box .events-box-left p {
