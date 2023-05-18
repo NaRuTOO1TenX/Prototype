@@ -84,10 +84,15 @@
   padding: 0 23px ;
 }
 
-.footer .container .footer-top .footer-send-icon{
+.footer .container .footer-top .footer-send-icon {
   position: absolute;
   top: 46px;
   left: 1133px;
+  cursor: pointer;
+}
+
+.footer .container .footer-top .footer-send-icon:active{
+  transform: scale(0.9);
 }
 
 .footer-newsteller-tex{
@@ -211,7 +216,7 @@
 .social-btn{
   display: flex;
   justify-content: space-between;
-  margin-top: 90px;
+  margin-top: 40px;
 }
 
 .play2 {
@@ -226,7 +231,10 @@
   justify-content: center;
   align-items: center;
   gap: 17px;
+  transition: all 0.7s ease;
 }
+
+
 
 .play2:active{
   transform: scale(0.95);
