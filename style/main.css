@@ -95,11 +95,13 @@
     color: #A4A4A4;
     margin: 10px 0;
   }
-  .free_span_for_font {
+  .free_link_for_font {
     color: white;
     font-weight: bold;
+    display: inline-block;
   }
-  .free_img {
+  .free_starbox i {
+    color: #937200;
     display: inline-block;
     cursor: pointer;
   }
@@ -108,7 +110,13 @@
     gap: 7px;
     flex-wrap: wrap;
   }
-
+  .free_smallbox:hover .free_smallbox_left img {
+    transform: scale(1.2);
+  }
+  .free_smallbox .free_smallbox_left img {
+    display: inline-block;
+    transition: 0.4s all linear;
+  }
 /* Top free games end */
 
 
