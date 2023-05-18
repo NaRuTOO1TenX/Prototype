@@ -20,6 +20,7 @@
 .wrapper {
     background-image: url(../images/bg-full-page.jpg);
     max-width: 1728px;
+    margin: 0 auto;
     height: 7244px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -52,7 +53,6 @@
 /* Top free games start */
   .top-free-games {
     padding: 100px 0 200px;
-    background-color: teal;
   }
   .free_header {
     display: flex;
