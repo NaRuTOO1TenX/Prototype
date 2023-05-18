@@ -20,6 +20,7 @@
 .wrapper {
     background-image: url(../images/bg-full-page.jpg);
     max-width: 1728px;
+    margin: 0 auto;
     height: 7244px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -69,15 +70,40 @@
   font-weight: 600;
   font-size: 37px;
   line-height: 45px;
-
   color: rgba(237, 237, 237, 0.9);
 }
+
+.featured-games .container .games {
+  display: flex;
+  justify-content: space-between;
+}
+
+.featured-games .games img {
+  transition: all 0.7s ease;
+}
+
+.featured-games .container a{
+  color: aliceblue;
+}
+
 .featured-games .container .games-1{
   width: 499px;
   height: 574px;  
   display: inline;
   gap: 39px;
   padding-top: 75px;
+}
+.featured-games .container .games-1:hover img{
+  box-shadow: 0 0 20px wheat;
+  transform: scale(1.05);
+}
+.featured-games .container .games-2:hover img{
+  box-shadow: 0 0 20px wheat;
+  transform: scale(1.05);
+}
+.featured-games .container .games-3:hover img{
+  box-shadow: 0 0 20px wheat;
+  transform: scale(1.05);
 }
 .featured-games .container .games-1 img{
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0B0D0D 100%);
