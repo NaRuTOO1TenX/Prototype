@@ -19,7 +19,6 @@
 
 .wrapper {
     background-image: url(../images/bg-full-page.jpg);
-    max-width: 1728px;
     height: 7244px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -156,6 +155,78 @@
 
 .header .navbar .navbar-user-btn i {
   font-size: 20px;
+}
+
+.header .header-content {
+  display: flex;
+}
+
+.header .header-content .header-left-content {
+  width: 920px;
+  margin-top: 200px;
+  margin-right: 69px;
+}
+
+.header .header-content .header-left-content h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 84px;
+  line-height: 100px;
+  color: #BDBDBD;
+}
+
+.header .header-content .header-left-content h1 .text-c {
+  font-size: 128px;
+}
+
+.header .header-content .header-left-content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 49px;
+  color: #BDBDBD;
+  margin-top: 72px;
+  margin-bottom: 86px;
+}
+
+.header .header-content .header-left-content a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 138.69%;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  border-radius: 6px;
+}
+
+.header .header-content .header-left-content a:nth-child(1) {
+  transition: 0.3s;
+  margin-right: 35px;
+  background: rgb(0, 132, 207);
+  background: linear-gradient(135deg, rgba(0, 132, 207, 1) 0%, rgba(109, 6, 206, 1) 100%);
+}
+
+.header .header-content .header-left-content a:nth-child(2) {
+  transition: 0.3s;
+  background: rgb(189, 147, 2);
+  background: linear-gradient(135deg, rgba(189, 147, 2, 1) 0%, rgba(165, 50, 1, 1) 100%);
+}
+
+.header .header-content .header-left-content a:nth-child(1):hover {
+  transition: 0.3s;
+  background: rgb(0, 132, 207);
+  background: linear-gradient(-135deg, rgba(0, 132, 207, 1) 0%, rgba(109, 6, 206, 1) 100%);
+}
+
+.header .header-content .header-left-content a:nth-child(2):hover {
+  transition: 0.3s;
+  background: rgb(189, 147, 2);
+  background: linear-gradient(-135deg, rgba(189, 147, 2, 1) 0%, rgba(165, 50, 1, 1) 100%);
+}
+
+.header .header-content .header-right-content {
+  margin-top: 200px;
+  margin-bottom: 157px;
 }
 
 /* Header end */
