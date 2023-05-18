@@ -1,0 +1,100 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* fonts */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.container {
+    max-width: 1586px;
+    margin: 0 auto;
+}
+
+
+.wrapper {
+    background-image: url(../images/bg-full-page.jpg);
+    max-width: 1728px;
+    margin: 0 auto;
+    height: 7244px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.earn-para p {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 160%;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    color: #FFFFFF;
+
+}
+
+.img-1 {
+    margin-top: 77px;
+}
+
+.island {
+    padding: 71px 0;
+}
+
+.island h1 {
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.long-para p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.the-island h1 {
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #FFFFFF;
+    margin-top: 84px;
+}
+
+.the-island p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    color: #FFFFFF;
+    margin-top: 37px;
+}
+
+.the-island img {
+    margin-top: -350px;
+    margin-left: 880px;
+}

@@ -514,6 +514,139 @@ border-radius: 25px;
 
 /* Top events start */
 
+
+
+
+.top-events-box {
+  display: flex;
+  height: 1189px;
+}
+
+.top-events-box .events-box-left p {
+  font-weight: 600;
+  font-size: 37px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  color: rgba(237, 237, 237, 0.9);
+  margin-top: 55px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+
+.top-events-box .events-box-left img {
+  width: 891.67px;
+  height: 798px;
+  border-radius: 22px;
+  margin-top: 106px;
+}
+
+.top-events-box .events-box-right h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #FFFFFF;
+  margin-top: 220px;
+  margin-left: 90px;
+}
+
+.top-events-box .events-box-right .long-paragraf {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  color: #B5B5B5;
+  margin-top: 30px;
+  margin-left: 90px;
+}
+
+.top-events-box .events-box-right a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #FFF9F9;
+  margin-left: 130px;
+  margin-top: 42px;
+  transition: 0.4s;
+}
+
+.top-events-box .events-box-right img {
+  margin-left: 340px;
+  transform: translateY(-20px);
+}
+
+.top-events-box .events-box-right .link-right {
+  margin-left: 370px;
+  margin-top: -45px;
+}
+
+.top-events-box .events-box-right .span-1 {
+  margin-left: 90px;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: bond;
+  color: #FFCD1A;
+  display: inline-block;
+}
+
+.top-events-box .events-box-right .span-2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: bond;
+  color: #93CBFF;
+  margin-left: 342px;
+  margin-top: -21px;
+}
+
+
+.top-events-box .events-box-right .short-para-left {
+  color: #B5B5B5;
+  margin-left: 210px;
+  margin-top: -27px;
+  font-size: 18px;
+}
+
+.top-events-box .events-box-right .short-para-right {
+  color: #B5B5B5;
+  margin-left: 387px;
+  margin-top: -27px;
+  font-size: 18px;
+}
+.top-events-box .events-box-right button {
+  background: linear-gradient(292.86deg, #2D53D9 0%, #46D84C 87.68%);
+border-radius: 15px;
+border: 0;
+width: 372.99px;
+height: 80.18px;
+color: #fff;
+font-size: 34px;
+margin-top: 120px;
+margin-left: 90px;
+transition: 0.4s;
+cursor: pointer;
+}
+
+.top-events-box .events-box-right button:hover {
+  scale: 0.97;
+}
+
+.top-events-box .events-box-right a:hover {
+  color: coral;
+}
+
+
+
+
+
+
+
+
 /* Top events end */
 
 
